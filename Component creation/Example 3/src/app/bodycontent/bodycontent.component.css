@@ -1,0 +1,16 @@
+.body-content {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/467/026/non_2x/generative-ai-hot-cappuccino-with-latte-art-on-wooden-table-with-coffee-beans-photo.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+
+  .body-content-inner {
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
