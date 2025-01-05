@@ -1,0 +1,11 @@
+.bodybg{
+	background-image: url('https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&w=600');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.content{
+	margin: 200px;
+}
