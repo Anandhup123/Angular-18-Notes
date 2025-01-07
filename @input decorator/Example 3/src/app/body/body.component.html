@@ -1,0 +1,33 @@
+<div class="bodybg">
+  <div class="nav">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="content">
+    <app-common-content
+      [title1]="content_title1"
+      [title2]="content_title2"
+      [text]="content_text"
+    ></app-common-content>
+	<div class="buttons">
+		<app-common-button name="Get Appoinment"></app-common-button>
+		<app-common-button name="Learn more"></app-common-button>
+	</div>
+  </div>
+  <div class="blocks">
+    <app-common-block
+      [subtitle]="block_contents[0]['subtitle']"
+      [title]="block_contents[0]['title']"
+      [content]="block_contents[0]['content']"
+    ></app-common-block>
+    <app-common-block
+      [subtitle]="block_contents[1]['subtitle']"
+      [title]="block_contents[1]['title']"
+      [content]="block_contents[1]['content']"
+    ></app-common-block>
+    <app-common-block
+      [subtitle]="block_contents[2]['subtitle']"
+      [title]="block_contents[2]['title']"
+      [content]="block_contents[2]['content']"
+    ></app-common-block>
+  </div>
+</div>

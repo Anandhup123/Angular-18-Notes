@@ -1,0 +1,13 @@
+<!-- apply color to the p tag by using a condition -->
+<p [style.color]="isHigh ? 'red' : 'black'">
+  This text changes color based on a condition.
+</p>
+
+<!-- example 2 -->
+
+<div
+  [style.backgroundColor]="isHighlighted ? 'yellow' : 'lightgray'"
+  [style.padding.px]="20"
+  [style.border]="isHighlighted ? '2px solid black' : '1px solid gray'">
+  This box changes its background and border based on the condition.
+</div>

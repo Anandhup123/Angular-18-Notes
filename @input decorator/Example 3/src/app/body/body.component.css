@@ -1,0 +1,22 @@
+.bodybg{
+	background-image: url('https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.content{
+	margin: 200px;
+}
+.blocks{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.buttons{
+	display: flex;
+	justify-content: start;
+	width:450px;
+	gap: 20px;
+}

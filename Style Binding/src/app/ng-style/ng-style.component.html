@@ -1,0 +1,13 @@
+<div [ngStyle]="cardStyles" class="card">
+	<h2>Dynamic Card</h2>
+	<p>
+	  This card's styles are dynamically controlled using ngStyle. Use the buttons
+	  below to switch themes!
+	</p>
+  </div>
+
+  <!-- ngStyle calling a method -->
+
+  <div [ngStyle]="getBoxStyles()">
+	This box uses ngStyle for dynamic styling.
+  </div>
